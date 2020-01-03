@@ -2,9 +2,16 @@ head{
 	font-size: 100%;
 }
 body{
-		margin: 60px auto;
-		width: 70%;
-	}
+	background-image:url(C:\Users\steve\Pictures\backgroundtester2.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.content{
+	background-color: white;
+	width: 50%;
+	padding: 40px;
+	margin: 100px auto;
+}
 nav ul, footer ul {
 		font-family:'Helvetica', 'Arial', 'Sans-Serif';
 		padding: 5px;
