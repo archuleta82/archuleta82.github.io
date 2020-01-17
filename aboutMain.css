@@ -271,3 +271,6 @@ footer a {
 footer a:hover{
 	color: #fff200;
 }
+
+.rotated {
+	transform: rotate(90deg);
