@@ -1,0 +1,132 @@
+/*	
+@author Steven Archuleta
+@date jan 2020
+About Me Style Sheet 
+**/
+
+/* Background colors*/
+/*.darkblue {
+	background-color: #303481;
+}
+
+.lightblue {
+	background-color: #d6e6f2;
+}
+
+.eggwhite {
+	background-color: #f5f5f5;
+}
+
+.purewhite {
+	background-color: #ffff;
+}
+.highlight {
+	background-color: #fff200;
+}*/
+/*Site nav*/
+body {
+	
+}
+main {
+	font-family: Rockwell;
+	color: #303481;
+}
+
+main ul li, h5 {
+	margin-left: 15%;
+	margin-right: 10%;
+}
+
+#skills h4 {
+	margin-left: 10%;
+}
+
+.center{
+	text-align: center;
+	margin-left: -8%;
+	list-style-type: none;
+}
+
+h3	{
+	margin-top: 2em;
+	margin-bottom: 3em;
+	text-align: center;
+	font-family: "Bahnschrift SemiBold";
+	width: 100%;
+	background-color: #d6e6f2;
+	border-bottom: .5px solid #fff200;
+	text-decoration: underline;
+}
+hr {
+	text-align: center;
+	width: 50%;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+footer {
+	position: absolute;
+	background-color: #303481;
+	color: #ffff;
+	width: 100%;
+	border-top: 2px solid #fff200;
+}
+
+footer ul {
+	position: relative;
+	text-align: center;
+	list-style-type: none;
+}
+
+footer li {
+	display: inline-flex;
+	margin-left: 1%;
+}
+
+footer a {
+	color: #ffff;
+}
+
+footer a:hover{
+	color: #fff200;
+}
+
+.space {
+	margin-right: 2%;
+}
+.sitenav  {
+	text-align: center;
+	position: sticky;
+	top: 0;
+	background-color: #303481;
+	border-bottom: 2px solid #fff200;
+	width: 100%;
+	opacity: 95%;
+	height: 20px;
+	z-index: 10;
+}
+
+.sitenav ul{
+	margin-left: -15%;
+}
+.sitenav li{
+	display: inline-flex;
+	margin-left: 8%;
+}
+.sitenav a {
+	text-decoration: none;
+	color: #ffff;
+	font-family:'impact';
+	font-size: 17px;
+ }
+
+.sitenav a:hover {
+	background-color: grey;
+	color: black;
+}
+
+.special a{
+	color: #ffff;
+	text-shadow: .5px .7px #fff200;
+}
+

@@ -1,0 +1,90 @@
+/*	
+@author Steven Archuleta
+@date jan 2020
+About Me Style Sheet 
+**/
+
+/* Color Scheme from 
+https://colorhunt.co/palette/78974
+
+.darkblue #303481
+.lightblue #d6e6f2
+.eggwhite #f5f5f5;
+.purewhite #ffff
+*/
+.sitenav  {
+	text-align: center;
+	position: sticky;
+	top: 0;
+	background-color: #303481;
+	border-bottom: 2px solid #fff200;
+	width: 100%;
+	opacity: 95%;
+	height: 20px;
+	z-index: 10;
+}
+
+.sitenav ul{
+	margin-left: -15%;
+}
+.sitenav li{
+	display: inline-flex;
+	margin-left: 8%;
+}
+.sitenav a {
+	text-decoration: none;
+	color: #ffff;
+	font-family:'impact';
+	font-size: 17px;
+ }
+
+.sitenav a:hover {
+	background-color: grey;
+	color: black;
+}	
+.special a{
+	color: #ffff;
+	text-shadow: .5px .7px #fff200;
+}
+body {
+	text-align: center;
+	color: #303481;
+	background-color: #ffff;
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	z-index: 0;
+}
+footer {
+	position: absolute;
+	background-color: #303481;
+	color: #ffff;
+	width: 100%;
+	border-top: 2px solid #fff200;
+}
+
+footer ul {
+	position: relative;
+	text-align: center;
+	list-style-type: none;
+}
+
+footer li {
+	display: inline-flex;
+	margin-left: 1%;
+}
+
+footer a {
+	color: #ffff;
+}
+
+footer a:hover{
+	color: #fff200;
+}
+h1 {
+	background-color: #d6e6f2;
+	text-align: center;
+	size: larger;
+}

@@ -1,0 +1,273 @@
+/*	
+@author Steven Archuleta
+@date jan 2020
+About Me Style Sheet 
+**/
+
+/* Color Scheme from 
+https://colorhunt.co/palette/78974
+
+.darkblue #303481
+.lightblue #d6e6f2
+.eggwhite #f5f5f5;
+.purewhite #ffff
+.highlight  #fff200*/
+
+/* Main tags */
+main{
+	font-family:Rockwell;
+}
+
+body {
+	color:#f8f8f8;
+	background-color: #ffff;
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	z-index: 0;
+}
+h1{
+	text-align: center;
+	font-size: 30px;
+	font-family: "Bahnschrift SemiBold";
+	text-shadow: 2px 2px #D6e6f2;
+	color: #303481;
+	background-color: rgba(244,244,244, .65);
+	padding: .5em 0;
+	margin: .5em 0;
+	border-bottom: .5px solid #fff200;
+}
+p{
+	
+	box-sizing: border-box;
+	color: black;
+	size: large;
+	text-align: center;
+	align-content: center;
+	display: inline-block;
+	position: relative;
+	width: 70%;	
+	height: 100%;
+	left: 15%;
+}
+
+h3 {
+	text-align: center;
+	font-family: "Bahnschrift SemiBold";
+	width: 100%;
+	color: #303481;
+}
+
+hr {
+	position: relative;
+	text-align: center;
+	font-family: "Bahnschrift SemiBold";
+	width: 150px;
+	top: 10px;
+}
+/*Site nav*/
+.sitenav  {
+	text-align: center;
+	position: sticky;
+	top: 0;
+	background-color: #303481;
+	border-bottom: 2px solid #fff200;
+	width: 100%;
+	opacity: 95%;
+	height: 20px;
+	z-index: 10;
+}
+
+.sitenav ul{
+	margin-left: -15%;
+}
+.sitenav li{
+	display: inline-flex;
+	margin-left: 8%;
+}
+.sitenav a {
+	text-decoration: none;
+	color: #ffff;
+	font-family:'impact';
+	font-size: 17px;
+ }
+
+.sitenav a:hover {
+	background-color: grey;
+	color: black;
+}	
+.special a{
+	color: #ffff;
+	text-shadow: .5px .7px #fff200;
+}
+/*Site Nav end*/
+
+/*Page navigation side bar*/
+.pagenav{
+	position: sticky;
+	top: 20px;
+	width:100%;
+	height: auto;
+	left: .5em;
+	background-color: #303481;
+	border-radius: 5%;
+	z-index: 10;
+}
+
+.pagenav > a{
+	position: relative;
+	text-decoration: none;
+	color: white;
+	opacity: .9;
+	margin-left: 15%;
+	padding-top: 0;
+	margin-top: 0;
+}
+
+.pagehead {
+	color: #303481;
+	background-color: #ffff;
+	position: relative;
+	margin: 0; 
+	height: 2em;
+	text-align: center;
+	border-bottom: 1px solid #fff200;
+}
+ /*Reaction to cursor*/
+.pagenav a:hover { 
+	color: black;
+	background-color: white;
+	text-decoration: underline;
+ }
+
+/*page nav end*/
+
+/*Abstract*/
+
+.abstract {
+	/*background-color: #faf5e4;*/
+	position: relative;
+	padding: 10px 10px;
+	margin: 20px 0px; 
+	color: black;
+
+}
+
+.bordered {
+	border: 2px solid #303481;
+	color: #303481;
+	padding: 1em;
+}
+
+.gallery {
+	margin: 1%;
+	float: left;
+	width: 30%;
+}
+.gallery img{
+	width: 100%;
+	height: 60%;
+	margin: auto;
+	padding-left: 5%;
+}
+
+.shadowright {
+	border-bottom: 3px solid #303481;
+	border-right: 3px solid #303481;
+	box-shadow: 2px 2px #d6e6f2;
+}
+.scroll {
+	overflow-y: scroll;
+	height: 200px;
+	width: 100%;
+	margin: 2em;
+}
+
+.hobbies {
+	background-color: #d6e6f2;
+	list-style-type: none; 
+	text-align: center;
+	color: #303481;
+	padding: 0;
+}
+
+.army {
+	margin-left: 5%;
+	float: left;
+	width: 45%;
+}
+.army img{
+	max-width: 150px;
+	min-width: 350px;
+	height: auto;
+	float: left;
+	padding-left: 5%;
+}
+
+.bg {
+	background-color: #d6e6f2;
+	opacity: 0.95;
+	color: #303481;
+}
+
+.logo {
+	z-index: 0;
+	background-image: url("82ndlogo.png"), linear-gradient(#ffff,  #d6e6f2, #303481,  #d6e6f2, #ffff);
+	background-size: contain;
+	background-position: center;
+	margin-top: 40px;
+	background-repeat: no-repeat;
+}
+
+.school {
+	margin-top: 50px;
+	background-image:url("worldmapUTM.png"), linear-gradient(#ffff, #303481);
+	background-position: center;
+	background-size: cover;
+}
+
+.school p, h3 {
+	background-color: rgba(244,244,244, .7);
+	padding: 1em 0;
+	margin: 1em 0;
+}
+
+.school img {
+	box-sizing: content-box;
+	position: relative;
+	align-items: center;
+	height: auto;
+	width: 60%;
+	border-radius: 70%;
+	margin-left: 20%;
+
+}
+
+footer {
+	position: absolute;
+	background-color: #303481;
+	color: #ffff;
+	width: 100%;
+	border-top: 2px solid #fff200;
+}
+
+footer ul {
+	position: relative;
+	text-align: center;
+	list-style-type: none;
+}
+
+footer li {
+	display: inline-flex;
+	margin-left: 1%;
+}
+
+footer a {
+	color: #ffff;
+}
+
+footer a:hover{
+	color: #fff200;
+}
