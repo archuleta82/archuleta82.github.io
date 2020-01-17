@@ -150,3 +150,19 @@ footer a:hover{
 .portfolio li{
 	padding: 1em 0;
 }
+
+.portfolio img {
+	width: 80%;
+	height: auto;
+}
+
+.portfolio embed {
+	width: 50%;
+	height: auto;
+	overflow: hidden;
+}
+
+iframe {
+	width: 90%;
+	height: auto;
+}
